@@ -1,163 +1,68 @@
-# 🚢 Cargo Operations Analytics Dashboard
-
-<p align="center">
-
-### Power BI • DAX • PL-300 • Interactive Analytics
-
-Transforming cargo movement data into operational insights through interactive business intelligence.
-
-</p>
-
----
-
-# 📌 Project Overview
-
-The **Cargo Operations Analytics Dashboard** is an end-to-end Power BI solution developed as part of **PL-300 (Microsoft Power BI Data Analyst)** preparation and portfolio development.
-
-This dashboard enables users to monitor cargo movement performance, evaluate operational efficiency, identify trends, and support data-driven decisions through interactive analytics.
-
----
-
-# ✨ Dashboard Highlights
-
-✅ Executive KPI Monitoring
-✅ Cargo Trend Analysis
-✅ Terminal Performance Ranking
-✅ Vessel Category Insights
-✅ Time Intelligence (YTD / MoM / Running Total)
-✅ Interactive Filtering & Navigation
-
----
-
 # 🖼 Dashboard Preview
 
-## Executive Overview
+## 📊 Executive Overview
 
-![Executive Dashboard](screenshots/Cargo%20Operation%20Analytics%20Dashboard.jpg)
+<p align="center">
+<a href="./screenshots/Cargo%20Operation%20Analytics%20Dashboard.jpg">
+<img
+src="./screenshots/Cargo%20Operation%20Analytics%20Dashboard.jpg"
+alt="Cargo Operations Analytics Dashboard"
+width="100%">
+</a>
+</p>
 
----
+### Overview
 
-## Performance Analytics
+This dashboard provides a high-level operational summary of cargo activities.
 
-![Performance Dashboard](screenshots/Performance%20Analytics%20Dashboard.jpg)
-
----
-
-# 📂 Dataset Architecture
-
-```text
-fact_cargo_movements
-      │
- ┌────┼────┐
- │    │    │
-dim_time
-dim_terminal
-dim_vessel
-```
-
-### Fact Table
-
-| Table                |
-| -------------------- |
-| fact_cargo_movements |
-
-### Dimension Tables
-
-| Table        | Purpose           |
-| ------------ | ----------------- |
-| dim_time     | Time Intelligence |
-| dim_terminal | Terminal Analysis |
-| dim_vessel   | Vessel Insights   |
-
----
-
-# 📊 Dashboard Pages
-
-## 🏠 Page 1 — Executive Overview
-
-### KPIs
+**KPIs Included**
 
 * Total Containers
 * Total Movements
 * Average Move Duration
+* Containers per Movement
 
-### Visuals
+**Business Insights**
 
-* Container Trends
-* Terminal Comparison
-* Regional Analysis
-* Vessel Distribution
+* Monitor cargo operations
+* Compare terminal performance
+* Analyse vessel contribution
+* Track movement trends
 
 ---
 
-## 📈 Page 2 — Performance Analytics
+## 📈 Performance Analytics
 
-### KPIs
+<p align="center">
+<a href="./screenshots/Performance%20Analytics%20Dashboard.jpg">
+<img
+src="./screenshots/Performance%20Analytics%20Dashboard.jpg"
+alt="Performance Analytics Dashboard"
+width="100%">
+</a>
+</p>
+
+### Overview
+
+This dashboard focuses on operational performance and business growth analysis.
+
+**KPIs Included**
 
 * Containers YTD
 * Running Containers
-* MoM Growth %
+* Month-over-Month Growth %
+* Terminal Ranking
 
-### Visuals
+**Business Insights**
 
-* Treemap
-* Ranking Table
-* Trend Analysis
-* Performance Tracking
-
----
-
-# 🧠 Business Questions Answered
-
-✔ Which region handles the highest cargo volume?
-✔ Which terminal performs best?
-✔ Which vessel category contributes most?
-✔ How are operations changing over time?
+* Track operational growth
+* Identify top-performing terminals
+* Analyse long-term trends
+* Support business decision making
 
 ---
 
-# ⚙️ Power BI Features Implemented
+# 📘 Documentation
 
-| Category          | Implemented |
-| ----------------- | ----------- |
-| Power Query       | ✅           |
-| Data Modelling    | ✅           |
-| DAX Measures      | ✅           |
-| Time Intelligence | ✅           |
-| Drillthrough      | ✅           |
-| Tooltips          | ✅           |
-| Bookmarks         | ✅           |
-| Navigation        | ✅           |
+[📄 View DAX Measures Documentation](./Cargo_Operations_DAX_Documentation.pdf)
 
----
-
-# 🛠 Technology Stack
-
-```text
-Power BI Desktop
-DAX
-Power Query
-Data Modelling
-Business Analytics
-```
-
----
-
-# 🎯 Learning Outcomes
-
-This project strengthened:
-
-* Dashboard Design
-* KPI Development
-* Data Storytelling
-* DAX Calculations
-* Business Intelligence Concepts
-* PL-300 Exam Readiness
-
----
-
-# 👩‍💻 Developed By
-
-### Subbulakshmi Natarajan
-
-Power BI • Data Analytics • Business Intelligence
