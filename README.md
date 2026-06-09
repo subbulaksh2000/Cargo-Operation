@@ -3,7 +3,7 @@
 ## 📊 Executive Overview
 
 <p align="center">
-<a href="./screenshots/Cargo%20Operation%20Analytics%20Dashboard.jpg">
+<a href="./screenshots/Cargo%20Operation%20Analytics%20Dashboard .jpg">
 <img
 src="./screenshots/Cargo%20Operation%20Analytics%20Dashboard.jpg"
 alt="Cargo Operations Analytics Dashboard"
