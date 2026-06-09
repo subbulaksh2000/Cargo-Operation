@@ -12,7 +12,7 @@ Transforming cargo movement data into operational insights through interactive b
 
 # 📌 Project Overview
 
-The **Cargo Operations Analytics Dashboard** is an end-to-end Business Intelligence solution developed using Microsoft Power BI as part of **PL-300 (Microsoft Power BI Data Analyst)** preparation and portfolio development.
+The **Cargo Operations Analytics Dashboard** is an end-to-end Business Intelligence solution developed using **Microsoft Power BI** as part of **PL-300 (Microsoft Power BI Data Analyst)** preparation and portfolio development.
 
 This dashboard enables users to monitor cargo movement performance, evaluate operational efficiency, identify trends, and support data-driven decisions through interactive analytics.
 
@@ -37,7 +37,7 @@ This dashboard enables users to monitor cargo movement performance, evaluate ope
 
 ### Overview
 
-Provides a high-level operational summary of cargo activities.
+Provides a high-level operational summary of cargo movement activities.
 
 ### KPIs Included
 
@@ -48,9 +48,9 @@ Provides a high-level operational summary of cargo activities.
 
 ### Business Insights
 
-* Monitor operational performance
-* Compare terminal efficiency
-* Analyse vessel contribution
+* Monitor operational workload
+* Compare terminal performance
+* Analyse regional activity
 * Track movement trends
 
 ---
@@ -61,7 +61,7 @@ Provides a high-level operational summary of cargo activities.
 
 ### Overview
 
-Supports deeper operational performance evaluation and analytics.
+Supports deeper operational performance evaluation and business insights.
 
 ### KPIs Included
 
@@ -73,7 +73,7 @@ Supports deeper operational performance evaluation and analytics.
 ### Business Insights
 
 * Evaluate operational growth
-* Track performance over time
+* Track cumulative performance
 * Identify top-performing terminals
 * Support data-driven decision making
 
@@ -91,7 +91,9 @@ dim_terminal
 dim_vessel
 ```
 
-### Fact Table
+---
+
+## Fact Table
 
 | Table                |
 | -------------------- |
@@ -99,7 +101,7 @@ dim_vessel
 
 ---
 
-### Dimension Tables
+## Dimension Tables
 
 | Table        | Purpose           |
 | ------------ | ----------------- |
@@ -119,7 +121,7 @@ dim_vessel
 * Total Movements
 * Average Move Duration
 
-### Visuals
+### Visualisations
 
 * Container Trends
 * Terminal Comparison
@@ -136,7 +138,7 @@ dim_vessel
 * Running Containers
 * MoM Growth %
 
-### Visuals
+### Visualisations
 
 * Treemap
 * Ranking Table
@@ -171,7 +173,9 @@ dim_vessel
 
 # 📘 Documentation
 
-[📄 View DAX Measures Documentation](./Cargo_Operations_DAX_Documentation.pdf)
+### DAX Measures Documentation
+
+📄 [View DAX Measures Documentation](./DAX%20Measures%20Documentation.pdf)
 
 ---
 
@@ -205,4 +209,3 @@ This project strengthened practical understanding of:
 ### Subbulakshmi Natarajan
 
 Power BI • Data Analytics • Business Intelligence
-
